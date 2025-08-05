@@ -24,6 +24,9 @@ I have converted my professional resume into a static website and deployed it us
  ### 4. Deployment to Azure:
      I used the Azure Static Web Apps service to deploy the website. I connected the service to my GitHub repository, which automatically created a GitHub Actions workflow to handle the continuous deployment.
 
+ ### 5. Documentation:
+    I documented my entire progress, including the steps and the troubleshooting process, in this README.md file.
+
 ## Challenges 
 I initially encountered an error where the build process failed because my simple HTML/CSS site did not require a build step. I fixed this by reconfiguring the app with the correct output location or by editing the GitHub Actions workflow file to bypass the build process.
 
